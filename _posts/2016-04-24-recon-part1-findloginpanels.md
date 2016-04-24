@@ -1,6 +1,6 @@
 ---
 layout: post
-title:  "Recon Part 1 - Finding Login Panels"
+title:  "Recon (Part 1.0)- Finding Login Panels"
 date:   2016-04-24 22:07:10 
 categories: Reconaissance
 author: pry0cc
