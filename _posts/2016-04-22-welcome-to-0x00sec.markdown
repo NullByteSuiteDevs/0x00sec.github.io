@@ -5,7 +5,6 @@ date:   2016-04-22 01:08:11 +0100
 categories: Info
 author: oaktree
 ---
-## Who are we?
 Originally, we all contributed at Null Byte. However, upon OTW's departure from the community we decided that we needed our own place. The people of Null Byte needed a place uncontrolled by WonderHowTo.
 
 Thus, we aim to create a new place: this place. 0x00sec is the next iteration of Null Byte. Here, contributors will post articles mainly about information security, but also related things, like computer science.
