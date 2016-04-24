@@ -2,7 +2,7 @@
 layout: post
 title:  "Sorting (Part 2.0) Time Complexity"
 date:   2016-04-22 23:16:11 +0100
-categories: who nullbyte
+categories: algorithm
 tags:
  - sorting
  - bubble sort

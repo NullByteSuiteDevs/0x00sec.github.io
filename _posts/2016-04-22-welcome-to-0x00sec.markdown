@@ -2,7 +2,7 @@
 layout: post
 title:  "Who are we?"
 date:   2016-04-22 01:08:11 +0100
-categories: who nullbyte
+categories: Info
 author: oaktree
 ---
 ## Who are we?
