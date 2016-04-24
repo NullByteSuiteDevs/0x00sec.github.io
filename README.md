@@ -21,15 +21,13 @@ When posting to 0x00sec, you need to do so through the pull request mechanics of
 1. Fork 0x00sec
 2. Upload your markdown to your forked repo, make sure to include this at the top of the file.
 
-<code>
----
-layout: post
-title: Posting Like a Hacker
-date: 23:23:23 -0700
-categories:
-author: your name
----
-</code>
+`---`
+`layout: post`
+`title: Posting Like a Hacker`
+`date: 23:23:23 -0700`
+`categories:`
+`author: your name`
+`---`
 
 3. For code snippets, use `{% highlight <language> linenos %} <your code here> {% endhighlight %}`.
 
