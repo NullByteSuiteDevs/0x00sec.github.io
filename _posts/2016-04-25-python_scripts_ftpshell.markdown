@@ -17,9 +17,9 @@ What you can do is use a web server to transfer commands and outputs. Let's do j
 ## The Server
 
 We will need to use a few libraries:
-{ % highlight py linenos % }
+{% highlight python linenos %}
 import urllib2, ftplib, subprocess, StringIO, time, os
-{ % endhighlight % }
+{% endhighlight %}
 - urllib2: For downloading commands.
 - ftplib: For uploading output.
 - subprocess: For executing commands.
