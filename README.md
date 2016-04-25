@@ -20,7 +20,6 @@ When posting to 0x00sec, you need to do so through the pull request mechanics of
 
 1. Fork 0x00sec
 2. Upload your markdown to your forked repo, make sure to include this at the top of the file.
-
 `---` <br>
 `layout: post` <br>
 `title: Posting Like a Hacker` <br>
@@ -28,7 +27,6 @@ When posting to 0x00sec, you need to do so through the pull request mechanics of
 `categories:` <br>
 `author: your name` <br>
 `---` <br>
-
 3. For code snippets, use `{% highlight <language> linenos %} <your code here> {% endhighlight %}`.
 4. At the first block of text, put the <code> <!--more--> </code> tag, and it will be where the excerpt is placed on the home page
 5. Make a pull request for your post, we will review the post and decide to merge/not merge it to 0x00sec. 
