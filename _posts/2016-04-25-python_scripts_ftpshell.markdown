@@ -2,7 +2,7 @@
 layout: post
 title: "Useful Python Scripts: HTTP&FTP Shell"
 date: 2016-04-25 18:00:00 +0200
-categories: scripting
+categories: Scripting
 tags:
   - scripting
   - shell
