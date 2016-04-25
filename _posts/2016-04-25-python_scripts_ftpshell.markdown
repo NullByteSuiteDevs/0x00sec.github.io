@@ -9,7 +9,7 @@ tags:
   - python
 author: Joe Schmoe
 ---
-Some people have problems with being unable to port forward, so they can't use reverse shells. Most of the time you can't use a bind shell either, if your target is behind NAT. What do!?  
+Some people have problems with being unable to port forward, so they can't use reverse shells. Most of the time you can't use a bind shell either, if your target is behind NAT. What do!?.
 
 ## The Solution
 What you can do is use a web server to transfer commands and outputs. So let's do just that!  
