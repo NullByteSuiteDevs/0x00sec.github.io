@@ -19,7 +19,7 @@ We hope that the members of Null Byte can adopt 0x00sec as a new place for the c
 When posting to 0x00sec, you need to do so through the pull request mechanics of github. 
 
 1. Fork 0x00sec
-2. Upload your markdown to your forked repo, make sure to include this at the top of the file.
+2. Upload your markdown to your forked repo, make sure to include this at the top of the file. <br>
 `---` <br>
 `layout: post` <br>
 `title: Posting Like a Hacker` <br>
