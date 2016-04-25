@@ -204,9 +204,10 @@ This lower half is called AX and is 2 bytes (16 bits) in size.
 
 AX can also be split. the higher half is called AH and the lower half is called AL.
 Think of it like this:
-[---16bits---|--AH-8bits-|--AL-8bits-]
-[---16bits---|----------16bits-AX-------]
-[-----------------32bits---EAX-------------]
+
+`[---16bits---|--AH-8bits-|--AL-8bits-]`
+`[---16bits---|----------16bits-AX-------]`
+`[-----------------32bits---EAX-------------]`
 
 So in order to assign 11 to EAX, we have to combine the things we discussed.
 First we need to make sure EAX doesn't contain garbage values.
