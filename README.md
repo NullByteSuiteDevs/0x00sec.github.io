@@ -30,5 +30,5 @@ When posting to 0x00sec, you need to do so through the pull request mechanics of
 `---` <br>
 
 3. For code snippets, use `{% highlight <language> linenos %} <your code here> {% endhighlight %}`.
-4. At the first block of text, put the <code> <!--more-->¬ </code> tag, and it will be where the excerpt is placed on the home page
+4. At the first block of text, put the <code> <!--more--> </code> tag, and it will be where the excerpt is placed on the home page
 5. Make a pull request for your post, we will review the post and decide to merge/not merge it to 0x00sec. 
