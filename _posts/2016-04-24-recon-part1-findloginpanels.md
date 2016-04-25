@@ -2,7 +2,7 @@
 layout: post
 title:  "Recon (Part 1.0) Finding Login Panels"
 date:   2016-04-24 22:07:10 
-categories: Reconaissance
+categories: reconaissance
 author: pry0cc
 ---
 In this post, I will uncover the mysteries torward finding hidden login panels and portals, something critical to finding low hanging fruit, uncovering larger vulnerabilities.

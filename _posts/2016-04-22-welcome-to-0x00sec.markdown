@@ -2,7 +2,7 @@
 layout: post
 title:  "Who are we?"
 date:   2016-04-22 01:08:11 +0100
-categories: Info
+categories: info
 author: oaktree
 ---
 Originally, we all contributed at Null Byte. However, upon OTW's departure from the community we decided that we needed our own place. The people of Null Byte needed a place uncontrolled by WonderHowTo.
