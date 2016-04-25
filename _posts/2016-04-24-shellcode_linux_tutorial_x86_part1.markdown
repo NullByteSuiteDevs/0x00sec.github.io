@@ -2,7 +2,7 @@
 layout: post
 title: "Shellcode Linux x86 (Part 1.0)"
 date: 2016-04-24 23:58:00 +0100
-catagories: exploitdev
+categories: exploitdev
 tags:
   - shellcode
   - shellcoding
