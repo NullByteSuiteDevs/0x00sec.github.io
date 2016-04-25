@@ -29,7 +29,7 @@ import urllib2, ftplib, subprocess, StringIO, time, os
   
 Now that we have everything we need let's begin.  
   
-{ % highlight python linenos % }
+{% highlight python linenos %}
 import urllib2, ftplib, subprocess, StringIO, time
 while True:
 	try:
@@ -38,28 +38,28 @@ while True:
 		print(str(e))
 		time.sleep(20)
 		
-{ % endhighlight % }
+{% endhighlight %}
 
 Seems pretty simple. We try downloading the input file, containing a command to execute. If there's an exception (No internet connection, input.txt doesn't exist, internet is on fire, etc.), we display it and wait 20 seconds before trying again. Now let's do something with the received command.
 
-{ % highlight python linenos % }
+{% highlight python linenos %}
 output = StringIO.StringIO(subprocess.check_output(command, shell=True))
-{ % endhighlight % }
+{% endhighlight %}
 
 We'll use subprocess the execute the command and get the output. Then, we will use StringIO to turn the command into a file object. Now let's upload the output to the FTP server.
 
-{ % highlight python linenos % }
+{% highlight python linenos %}
 ftp = ftplib.FTP("server.com")
 ftp.login("username","password")
 ftp.storbinary("STOR output.txt",output)
 ftp.delete("input.txt")
 ftp.quit()
 ftp.close()
-{ % endhighlight % }
+{% endhighlight %}
 
 We create an FTP object and login to a server of our choosing. Then, we use the STOR command to store our output as output.txt. ftplib requires the second argument to be a file object, and that's why we needed to use StringIO earlier. After that, we delete the input file since it's no longer needed, and close our connection. The server is done!
 
-{ % highlight python linenos % }
+{% highlight python linenos %}
 import urllib2, ftplib, subprocess, StringIO, time, os
 while True:
 	try:
@@ -74,13 +74,13 @@ while True:
 	except Exception as e:
 		print str(e)
 		time.sleep(20)
-{ % endhighlight % }
+{% endhighlight %}
 
 **The Client**
 
 The client is very analogous to the server, so I don't think there's much to explain.
 
-{ % highlight python linenos % }
+{% highlight python linenos %}
 import urllib2, ftplib, time
 while True:
 	try:
@@ -104,7 +104,7 @@ while True:
 		print output
 	except Exception as e:
 		print str(e)
-{ % endhighlight % }
+{% endhighlight %}
 
 We get the command and turn it into a file object, upload it, and delete the previous output (The try/except is there because if output.txt doesn't exist ftplib raises an exception). Then we try reading the output every 5 seconds, and print it when we succeed.
 
