@@ -14,7 +14,7 @@ Some people have problems with being unable to port forward, so they can't use r
   
 What you can do is use a web server to transfer commands and outputs. Let's do just that!  
 
-**The Server**
+## The Server
 
 We will need to use a few libraries:
 { % highlight python linenos % }
