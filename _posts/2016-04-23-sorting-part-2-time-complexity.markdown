@@ -13,7 +13,7 @@ author: oaktree
 Welcome back, 0x00sec community, to my series on sorting.
 
 I introduced in my last article the concept of complexity. When I say complexity, I'm talking about **time complexity**.
-
+<!--more-->
 ## What Is Time Complexity?
 You can view the Wikipedia article <a href="https://en.wikipedia.org/wiki/Time_complexity">here</a>, but I'll be speaking from my heart and soul.
 
