@@ -1,13 +1,12 @@
 ---
 layout: post
-title: "Networking Foundations: Exploring UDP via Wireshark (Part 1.0 & 2.0)"
+title: "Networking Playground: Exploring UDP via Wireshark"
 date: 2016-04-26 18:30:00 -0700
 catagories: networking
 tags:
   - UDP
   - networking
 author: pysec
-published: false
 ---
 Hello ladies and gentlemen, I'm back with another informative(hopefully) article for you all.In this article I'm going to walk you through one of the main networking protocols when it comes to communication across the Internet between programs, aka UDP(User Datagram Protocol).
 <!-- more -->
@@ -128,11 +127,7 @@ What about the 63715 port though? Well, Windows generated a dynamic port, this i
 
 It would be a waste of time to say "Let's build a session between us, are you ok talking?" and the DNS responds back "Yes, let's build a session" and our computer saying "ok". After that session was built our computer would make its request and it would wait for acknowledgement from the server once again. You see where I'm going with it? Why do you need all that overhead just to get the answer to who is google.com or whatever. DNS is geared in such a way that when you say "who is google.com?" and your computer doesn't get an answer back, it's configured to say "Well, I hope it got there, but I don't think it got there because I didn't get an answer back, let me ask again."
 
-That's the idea of UDP ladies and gentlemen. We are not done here though, I decided to split the article into half so you won't get overwhelmed with too much information. On the next article, which will be coming shortly, we will talk about those DNS requests. If you look closer to the capture results, our computer makes a request for hmpg.net.forthnet.lan. What is that? And what is the request `A hmpg.net.forthnet.lan` or `AAAA hmpg.net.forthnet.lan`? We will get into that really soon my friends.
-
-## Part 2.0:
-
-Hello ladies and gentlemen, welcome back to the Part 2 of our UDP & Wireshark adventure as I promised. Last time we discussed about what DNS is and how it uses UDP as its transport protocol but we left some unexplained parts behind and I'm about to investigate those with you. I would advice you to go back to Part 1 so you can have a clear understanding in case you don't feel comfortable with the topic.
+That's the idea of UDP ladies and gentlemen. If you look closer to the capture results, our computer makes a request for hmpg.net.forthnet.lan. What is that? And what is the request `A hmpg.net.forthnet.lan` or `AAAA hmpg.net.forthnet.lan`?
 
 <img src="http://img.wonderhowto.com/img/67/71/63592325343318/0/networking-foundations-exploring-udp-via-wireshark-part-2.w654.jpg"/>
 
