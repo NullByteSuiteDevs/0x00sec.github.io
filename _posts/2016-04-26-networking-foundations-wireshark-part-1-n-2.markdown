@@ -7,7 +7,7 @@ tags:
   - UDP
   - networking
 author: pysec
-
+published: false
 ---
 Hello ladies and gentlemen, I'm back with another informative(hopefully) article for you all.In this article I'm going to walk you through one of the main networking protocols when it comes to communication across the Internet between programs, aka UDP(User Datagram Protocol).
 <!-- more -->
