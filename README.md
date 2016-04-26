@@ -19,17 +19,14 @@ We hope that the members of Null Byte can adopt 0x00sec as a new place for the c
 When posting to 0x00sec, you need to do so through the pull request mechanics of github. 
 
 1. Fork 0x00sec
-2. Upload your markdown to your forked repo, make sure to include this at the top of the file.
-
-`---`
-`layout: post`
-`title: Posting Like a Hacker`
-`date: 23:23:23 -0700`
-`categories:`
-`author: your name`
-`---`
-
+2. Upload your markdown to your forked repo, make sure to include this at the top of the file. <br>
+`---` <br>
+`layout: post` <br>
+`title: Posting Like a Hacker` <br>
+`date: 23:23:23 -0700` <br>
+`categories:` <br>
+`author: your name` <br>
+`---` <br>
 3. For code snippets, use `{% highlight <language> linenos %} <your code here> {% endhighlight %}`.
-
-4. Make a pull request for your post, we will review the post and decide to merge/not merge it to 0x00sec. 
-
+4. After the first block of text, put the <code> <!--more--> </code> tag, and it will be where the excerpt is placed on the home page
+5. Make a pull request or your post on the master branch, we will review the post and decide to merge/not merge it to 0x00sec. 

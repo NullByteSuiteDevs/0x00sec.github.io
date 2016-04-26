@@ -2,7 +2,7 @@
 layout: post
 title: "Shellcode Linux x86 (Part 1.0)"
 date: 2016-04-24 23:58:00 +0100
-catagories: exploitdev
+categories: exploit
 tags:
   - shellcode
   - shellcoding
@@ -11,8 +11,8 @@ tags:
 author: unh0lys0da
 ---
 Welcome back fellow 0x00'ers, we are back and rolling.
-I hope you like our new site, if you have any questions, find us on #nullbyte at irc.freenode.com.
-
+I hope you like our new site, if you have any questions, find us on #nullbyte at irc.freenode.net.
+<!--more-->
 ## Requirements
 Alright so this isn't going to be msfvenom tutorial. (shellcodes are payloads). 
 This tutorial will focus on writing shellcodes using Assembly.
@@ -204,9 +204,12 @@ This lower half is called AX and is 2 bytes (16 bits) in size.
 
 AX can also be split. the higher half is called AH and the lower half is called AL.
 Think of it like this:
-[---16bits---|--AH-8bits-|--AL-8bits-]
-[---16bits---|----------16bits-AX-------]
-[-----------------32bits---EAX-------------]
+
+`[---16bits---|--AH-8bits-|--AL-8bits-]`
+
+`[---16bits---|----------16bits-AX-------]`
+
+`[-----------------32bits---EAX-------------]`
 
 So in order to assign 11 to EAX, we have to combine the things we discussed.
 First we need to make sure EAX doesn't contain garbage values.

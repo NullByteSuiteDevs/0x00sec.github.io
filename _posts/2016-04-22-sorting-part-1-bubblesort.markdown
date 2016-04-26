@@ -14,7 +14,7 @@ Alright, 0x00 community! Here we go... Bubble Sort.
 ## What Is Bubble Sort?
 
 Bubble Sort is a certain sorting algorithm that is often used as an introduction to sorting. It is not the best sorting algorithm, but it is very easy to implement and works fast with small sample sizes.
-
+<!--more-->
 Bubble Sort works like this: go through an unsorted array. If one element is bigger than the next element, switch those elements. It does this through the entire array.
 
 But, how do we know the array is sorted after just one run? We don't. We have to go through that array at most N times, where N is the size of the array to sort.
