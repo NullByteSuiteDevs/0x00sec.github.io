@@ -8,13 +8,14 @@ tags:
   - networking
 author: pysec
 
-published: false
 ---
 Hello ladies and gentlemen, I'm back with another informative(hopefully) article for you all.In this article I'm going to walk you through one of the main networking protocols when it comes to communication across the Internet between programs, aka UDP(User Datagram Protocol).
+<!-- more -->
 
 There are a lot of transport protocols. The transport layer includes all kinds of protocols, such as TCP, UDP, ICMP, ESP that is used for VPN connections, OSPF and EIGRP which are routing protocols and many other more. But when we are talking about programs talking across the network, they primarily use:
 
 **UDP** - "I hope it gets there" - Unreliable Version
+
 **TCP** - "I know it got there" - Reliable Version
 
 Let's get into UDP, shall we? So the question is, why would you want to send a "I hope it gets there" request? The first thing to understand is that there is a cost to reliability. In order to say "I know it got there", there is a lot of setup that takes place. The first thing that happens is something known as a 3-way handshake.
