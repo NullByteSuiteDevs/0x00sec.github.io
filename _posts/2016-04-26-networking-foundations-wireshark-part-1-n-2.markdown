@@ -2,7 +2,7 @@
 layout: post
 title: "Networking Playground: Exploring UDP via Wireshark"
 date: 2016-04-26 18:30:00 -0700
-catagories: networking
+catagories: Networking
 tags:
   - UDP
   - networking
