@@ -19,3 +19,9 @@ future: true
 excerpt_separator: <!--more-->
 
 github_username: 0x00sec
+
+gems: [jekyll-paginate]
+
+paginate: 3
+
+paginate_path: "/:num"
