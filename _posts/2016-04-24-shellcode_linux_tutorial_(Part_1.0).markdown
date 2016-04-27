@@ -13,6 +13,7 @@ author: unh0lys0da
 Welcome back fellow 0x00'ers, we are back and rolling.
 I hope you like our new site, if you have any questions, find us on #nullbyte at irc.freenode.net.
 <!--more-->
+
 ## Requirements
 Alright so this isn't going to be msfvenom tutorial. (shellcodes are payloads). 
 This tutorial will focus on writing shellcodes using Assembly.
