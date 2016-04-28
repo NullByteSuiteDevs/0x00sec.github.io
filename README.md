@@ -15,6 +15,9 @@ mainly about information security, but also related things, like computer scienc
 We started this with an idea on 4/21/16. unh0lys0da, pry0cc, and I (oaktree, a.k.a oaktree347) set out to make a new home.
 We hope that the members of Null Byte can adopt 0x00sec as a new place for the cultivation of new leaders in infosec.
 
+To make this community thrive just like Null-byte did, we need content. We now have a public forum at https://discourse.0x00sec.org/ 
+We are looking for inquisitive contributors and question askers, so please stop by and help get this machine rolling. All skill levels are embraced, as this diversity is beneficial for everybody!
+
 # How to Submit a post to 0x00sec
 When posting to 0x00sec, you need to do so through the pull request mechanics of github. 
 
