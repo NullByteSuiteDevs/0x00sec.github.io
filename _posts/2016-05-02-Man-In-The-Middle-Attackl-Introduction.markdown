@@ -1,6 +1,6 @@
 --- 
 layout: post 
-title: Man in the middle Attack ( Introduction to Hacking )
+title: Man in the middle Attack (Introduction to Hacking)
 date: 2016-05-02 09:39
 categories: Networking
 author: L3akM3-0day
