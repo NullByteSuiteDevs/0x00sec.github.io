@@ -17,9 +17,11 @@ layout: default
 
   <div id='discourse-comments'></div>
 
+  <div id='discourse-comments'></div>
+
   <script type="text/javascript">
     DiscourseEmbed = { discourseUrl: 'http://discourse.0x00sec.org/',
-                       discourseEmbedUrl: '{{site.url}}{{page.url}}' };
+                       discourseEmbedUrl: 'https://0x00sec.org{{page.url}}' };
 
     (function() {
       var d = document.createElement('script'); d.type = 'text/javascript'; d.async = true;
@@ -27,5 +29,7 @@ layout: default
       (document.getElementsByTagName('head')[0] || document.getElementsByTagName('body')[0]).appendChild(d);
     })();
   </script>
+
+
 
 </article>
